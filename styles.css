@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: red;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+}
