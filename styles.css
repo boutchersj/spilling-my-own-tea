@@ -1,55 +1,62 @@
 body {
-    margin: 0;
-    font-size: 1rem;
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  h1 {
-    font-weight: 400;
-  }
-  .img {
-    display: block;
-    max-width: 100%;
-  }
-  
-  .img-brand {
-    width: 30%;
-  }
-  
-  .container {
-    display: flex;
-  }
-  
-  .container-nav {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #c0392b;
-    color: black;
-    width: 100%;
-    padding: 1em;
-  }
-  
-  .container-brand {
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  ul {
-    list-style: none;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-right: 1.5em;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .current-page {
-    border-bottom: black 1px solid;
-    padding-bottom: 0.5em;
-  }
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Annie Use Your Telescope", cursive;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+}
+
+.img-brand {
+  width: 10%;
+  max-width: 300px;
+  margin-right: 1em;
+}
+
+.container {
+  display: flex;
+}
+
+.container-nav {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0392b;
+  color: black;
+  width: 100%;
+  padding: 1em;
+  min-width: 400px;
+}
+
+.container-brand {
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  width: 80%;
+  max-width: 400;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1.5em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.current-page {
+  border-bottom: black 1px solid;
+  padding-bottom: 0.5em;
+}
+
   
